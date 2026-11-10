@@ -11,8 +11,63 @@
   2.1 Responses to communication should be expected within a 24hr period unless there is reason/said group member is excused.
 
 3. Definition of done: when is a task complete? (hint: "I'm done with that but I didn't check it in to github" is not done.)
+Defention of completed work(done) : 
+
+A task is complete when : 
+
+Code is Written, Tested, and Committed: All code for the task is written, unit tests have been created and successfully passed, and the changes are committed and pushed to the main or feature branch on GitHub.
+
+Code Review Approved: The pull request has been reviewed by the assigned memeber's of the team, commented on,and any requested changes have been addressed by the team
+
+Merged without Conflicts: The branch has been successfully merged into the integration/main branch with no merge conflicts or build failures due to the newly merged work 
+
+Documentation : Any relevant code comments, API documentation, or task boards (like Trello, Jira, or GitHub Projects) are fully updated to reflect the current state of the process.
+
+(if any of these requirement are not fullfilled to the standard of the charter, member will be asked to completed the task to be considered "done" with a particular task)
+
   
 4. Scrum meeting format/frequency and distribution of documentation tasks (meeting minutes, updating task board)
+
+Frequency:
+-   Weekly meeting: in person every Tuesday during lab time, lasting at
+  most 1 hour 30 minutes.
+-   Sprints: two weeks long. Sprint planning happens at the Tuesday meeting
+  that starts a sprint, and the sprint review and retrospective happen at the
+  Tuesday meeting that ends one. The Tuesday in the middle of a sprint is a
+  regular check-in.
+-   Stand-ups: async, posted in our group chat by 9 PM every Thursday and
+  Sunday.
+
+Stand-up format:
+Each member posts answers to three questions:
+1. What did I finish since my last update?
+2. What am I working on next?
+3. Is anything blocking me?
+If someone reports a blocker, the people who can help reply in the chat or
+meet up before the next Tuesday. Blockers don't wait for the weekly meeting.
+
+Tuesday meeting format
+-   Sprint start (planning):   move items from the Product Backlog to the
+  Sprint Backlog, break them into issues, and assign an owner to each one.
+-   Mid-sprint check-in:   go over the board, discuss blockers from the
+  stand-ups, and adjust assignments if someone is overloaded.
+-   Sprint end (review and retrospective):   show what reached Done, then
+  discuss what went well and one thing to improve next sprint. Unfinished
+  items go back to the Product Backlog or carry into the next sprint.
+
+  Documentation roles-   (rotate every sprint so everyone does each role)
+-   Scrum Master: runs the Tuesday meeting, keeps it within 1 hour 30
+  minutes, and checks in on anyone who reported a blocker in a stand-up.
+-   Note taker: records the minutes (attendance, decisions, task
+  assignments, blockers) and commits them to the repo as
+  `meetings/YYYY-MM-DD.md` within 24 hours of the meeting.
+-   Board keeper: after each Tuesday meeting, makes sure the project board
+  matches what was decided (new issues created, Sprint Backlog updated).
+-   Everyone: moves their own cards on the board as their work progresses
+  and posts their stand-ups on time.
+
+  Role assignments: TBD
+Roles will be assigned at our next lab meeting, and this section will be updated with the rotation schedule.
 
 5. Procedure for adopting policies (e.g. code style, code check-in steps, documentation updates)
 if you adopt such a policy during the initial meeting, put it here
